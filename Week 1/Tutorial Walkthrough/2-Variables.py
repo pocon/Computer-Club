@@ -11,6 +11,15 @@ text = "Hello World" # A string can be contained in double or single quotes, it 
 
 print text # This prints the contents of the variable 'text', or displays them on the console
 
+''' 
+
+Can I name variables anything?
+-> Almost Anything except for python keywords (that is, words reserved for python because they do other things)
+-> For example, it would not be possible to name a variable print as python will just be confused
+-> A list of keywords can be found here: http://docs.python.org/reference/lexical_analysis.html#keywords
+
+'''
+
 # Integers (Whole Numbers)
 
 number = 10
