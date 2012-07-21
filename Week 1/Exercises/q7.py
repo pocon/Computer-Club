@@ -9,4 +9,9 @@ while c<len(string):
  c+=1
 print num-int(num2)
 
-#Iff the number is palindromic, the output is 0
+#If the number is palindromic, the output is 0
+
+# Two Liner:
+
+num = input("Enter The Number To Be Tested: ")
+print num[::-1] == num
