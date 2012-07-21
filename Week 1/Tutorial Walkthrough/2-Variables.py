@@ -20,3 +20,10 @@ print number
 
 number = 10.1
 print number
+
+# Taking Input
+n = raw_input("Type Your Name: ") # Will Produce a prompt on the command Line saying: "Type Your Name: " After the user types in a name and presses enter, the name they typed is set as n (as a string, regardless of whether they typed a number or not)
+
+# Converting Strings to Numbers:
+n = "23" # For example, if the user typed 23 for above
+n = int(n) # turns it from "23" -> 23, so you can now manipulate it as a number (more on next page)
