@@ -26,3 +26,5 @@ print 'Hello \n World' # \n is newline carriage meaning where you put it, the ne
 print 'Hello \t World' # \t is a tab. equivelant of hitting the tab key inside Hello <tab> World
 print 'I can\'t Do it' # if you type the apostrophe into can't without the \, python will think this is to close the string and cause problems as the rest of the string isn't enclosed. The \ 'escapes' the ' meaning that python shouldn't use it to close the string.
 print "He said, \"Hey Dere\"" # works for " as well
+print "One Line",
+print "Same Line" # Adding a comma between print statements suppresses the creation of a new line, so they stay on the same line
