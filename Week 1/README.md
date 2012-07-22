@@ -20,7 +20,7 @@ Plan for Computer Club Week 1 (TUES 24 JUL 12 - 1:00 pm)
    iii. Used By: NASA, Google (a lot), Yahoo!, Battlefield II, IBM, etc.
 
 ## Installing Python and Getting Setup - http://python.org/download/ ##
-1. We��re using Python2, because nobody likes 3
+1. We're using Python2, because nobody likes 3
 2. Show windows installer
 3. Macs have python by default but you should update to 2.7 by using the Mac installer
 4. *Nix/Solaris: Can compile from source or should be in 99% of repos
