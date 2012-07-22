@@ -14,3 +14,6 @@ Week 1 Exercises
 Write a program that checks whether an inputted number is a prime. It should print either "prime" or "composite" as an output. Entries will be ranked according to the "shortest" program (i.e. least number of characters) (see judging criteria below). Obviously your program needs to be working first.
 
 Characters: Strings inside raw_input or input will not be counted. Whitespace of any kind (tabs or spaces) is not counted. Newlines incur a +3 penalty. All other characters incur a +1.
+
+#### Scorer ####
+A copy of the challenge scorer is available here: https://github.com/pocon/Computer-Club/blob/master/Utilities/score.py
