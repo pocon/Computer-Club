@@ -21,4 +21,4 @@ for line in f.readlines():
         if char == '\n':
             score += 3
 
-print "Golf Score: ", score
+print "Challenge Score (Lower is Better): ", score
