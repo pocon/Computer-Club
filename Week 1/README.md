@@ -12,7 +12,12 @@ Type:
 Finally, .py files are just text files and can be edited with notepad but your life is 100x times easier using Notepad++. Just run the installer, available here: http://notepad-plus-plus.org/download/v6.1.5.html (first link)
 After that, get cracking on the tutorial.
 
-The Interpreter can be opened within a prompt (WinKey-r cmd) by typing python. To run a file, cd to that file's directory and type python <file.py>.
+The Interpreter can be opened within a prompt (WinKey-r cmd) by typing python (assuming your path has been set correctly above). To run a file, cd to that file's directory and type python <file.py>.
+
+Type driveletter: to change to that drive. For example if I'm in my home folder in C:\ and my python program is in D:\ type d: and press enter.
+
+From here type cd <your folder address>. Your prompt should change to the directory your python program is in (for example, D:\Files\Python> ) here you can type python <yourfile.py> to execute your program.
+
 Any problems, ask the mailing list.
 
 ### Mac ###
