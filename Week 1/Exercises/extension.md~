@@ -16,11 +16,8 @@ However anyone who's read and understood the week 1 material should be able to d
 3. Aliasing is when 2 different variable names refer to the same object in memory. This can occur with lists. For example, the following code:
 
 list1=[1,2,3,4,5]
-
 list2=list1
-
 list2[1]=50
-
 print list1
 
 would output [1,50,3,4,5]. This is because list1 and list2 refer to the same list in actuality. Suggest a way by which I could "clone" a list, i.e. create another list with exactly the values as the first but unaliased with it. That is, modifying an element of list2 should not modify the elements of list1 too.
