@@ -17,3 +17,7 @@ Characters: Strings inside raw_input or input will not be counted. Whitespace of
 
 #### Scorer ####
 A copy of the challenge scorer is available here: https://github.com/pocon/Computer-Club/blob/master/Utilities/score.py
+
+#### Extension ####
+
+If you have more experience or want to try some harder problems, see extension.md
