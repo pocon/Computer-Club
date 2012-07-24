@@ -1,5 +1,27 @@
 Plan for Computer Club Week 1 (TUES 24 JUL 12 - 1:00 pm)
 ========================================================
+## Installing Python ##
+### Windows ###
+
+Download from: http://www.python.org/getit/ and run the installer as per normal. 
+Then, use WindowsKey-r and type cmd (or search for cmd) to get a prompt.
+
+Type:
+   >set path=%path%;C:\python27
+   
+Finally, .py files are just text files and can be edited with notepad but your life is 100x times easier using Notepad++. Just run the installer, available here: http://notepad-plus-plus.org/download/v6.1.5.html (first link)
+After that, get cracking on the tutorial.
+
+The Interpreter can be opened within a prompt (WinKey-r cmd) by typing python. To run a file, cd to that file's directory and type python <file.py>.
+Any problems, ask the mailing list.
+
+### Mac ###
+Should come with python 2.7 installed. Load up a terminal and type 'python' and make sure it says 2.7.x near the top. If not, (eg: it says python 2.5 or something), update it with: http://www.python.org/getit/
+Use any text editor for .py files. Python is launched by typing python into a terminal. A file can be run with python <file.py>
+
+### Linux ###
+Most distributions should ship with it by default. If not, search your repo or grab the tarball from above and compile (easy as pie, has makefile and all).
+
 
 ## Welcome To Computer Club ##
 1. Plan on Learning Programming for the club over the next few terms
