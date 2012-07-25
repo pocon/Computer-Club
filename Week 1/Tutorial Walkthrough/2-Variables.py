@@ -32,6 +32,7 @@ number = 10.1
 print number
 
 # Taking Input
+# Note that n can be any arbitrary variable you assign to. It's not "Type Your Name: " that stores the value, it's n. See above with: "can I name variables anything"
 n = raw_input("Type Your Name: ") # Will Produce a prompt on the command Line saying: "Type Your Name: " After the user types in a name and presses enter, the name they typed is set as n (as a string, regardless of whether they typed a number or not)
 
 n = input("Type a Number: ") # Will compute the expression of whatever somebody types in there. In the most basic of uses, means that if you type a number, its type will be int.
