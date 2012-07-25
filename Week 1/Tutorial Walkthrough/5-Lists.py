@@ -29,3 +29,7 @@ print t[6:] # is "World"
 g = t.split(" ")
 print g # Will give ["Hello", "World"]
 print g[1] # "World"
+
+# the len() function when called on a list will give the number of objects in that list. You could think of strings as a special list of characters.
+
+print len(t)

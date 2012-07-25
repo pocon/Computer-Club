@@ -28,3 +28,8 @@ print 'I can\'t Do it' # if you type the apostrophe into can't without the \, py
 print "He said, \"Hey Dere\"" # works for " as well
 print "One Line",
 print "Same Line" # Adding a comma between print statements suppresses the creation of a new line, so they stay on the same line
+
+# The len() function when called with a string will return the length of that string, ie the number of characters in it
+
+stuff = "Test String"
+print len(stuff)
