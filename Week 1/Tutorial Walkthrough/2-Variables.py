@@ -17,6 +17,7 @@ Can I name variables anything?
 -> Almost Anything except for python keywords (that is, words reserved for python because they do other things)
 -> For example, it would not be possible to name a variable print as python will just be confused
 -> A list of keywords can be found here: http://docs.python.org/reference/lexical_analysis.html#keywords
+-> Also, your variable name can't contain a number at the start of it, but it can contain a number within or at the end of the name. For example, 3abc is an invalid name, but ab3c and abc3 are legit
 
 '''
 

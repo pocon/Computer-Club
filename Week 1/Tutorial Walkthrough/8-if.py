@@ -11,7 +11,7 @@ a = 10
 if a > 5:
     print "a is greater than 5"
 
-else: # regardless of the result of a > 5, whether a is less than 5 or equal to, this code is run.
+else: # whenever a is less than 5 or equal to, this code is run rather than the block of code if a is greater than 5.
     print "a is not greater than 5"
 
 

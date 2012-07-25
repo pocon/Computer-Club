@@ -26,7 +26,7 @@ print c # Should be 6
 c = c / b # '/' (forward slash) is the division operator
 print c # Should be 3
 
-print 10 / 3 # Gives 3, not 3.333... as python performs floor division on integers. Ie: if you take in two whole numbers, it will give out two whole numbers
+print 10 / 3 # Gives 3, not 3.333... as python performs floor division on integers. Ie: if you take in two whole numbers, it will give out a whole number. Basically, if both inputs to the "/" operator are integers, it discards the fractional part of the result.
 print 10.0 / 3 # Gives 3.333... as one of the numbers is a float (has a decimal place)
 
 c = a ** b # '**' means "to the power of", 
