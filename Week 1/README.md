@@ -4,11 +4,30 @@ Plan for Computer Club Week 1 (TUES 24 JUL 12 - 1:00 pm)
 ### Windows ###
 
 Download from: http://www.python.org/getit/ and run the installer as per normal. 
-Then, use WindowsKey-r and type cmd (or search for cmd) to get a prompt.
 
-Type:
-   >set path=%path%;C:\python27
-   
+Then, you'll need to set up the PATH variable to look in python to ensure you don't have to type out the full path each time:
+
+> http://docs.python.org/using/windows.html#finding-the-python-executable:
+
+"Windows has a built-in dialog for changing environment variables
+(following guide applies to XP classical view): Right-click the icon
+for your machine (usually located on your Desktop and called “My
+Computer”) and choose Properties there. Then, open the Advanced tab
+and click the Environment Variables button.
+
+In short, your path is:
+
+My Computer ‣ Properties ‣ Advanced ‣ Environment Variables
+In this dialog, you can add or modify User and System variables. To
+change System variables, you need non-restricted access to your
+machine (i.e. Administrator rights)."
+
+Then, find the PATH variable and add to the end of it (don't delete
+the other stuff): ";C:\Python27"
+
+Make sure the colon closes off the other one. Completely, PATH should
+look like: "C:\WINDOWS\system32;C:\WINDOWS;C:\Python27"
+
 Finally, .py files are just text files and can be edited with notepad but your life is 100x times easier using Notepad++. Just run the installer, available here: http://notepad-plus-plus.org/download/v6.1.5.html (first link)
 After that, get cracking on the tutorial.
 
