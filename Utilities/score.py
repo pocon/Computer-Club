@@ -15,10 +15,12 @@ import sys
 score = 0
 f = open(sys.argv[1], 'r')
 for line in f.readlines():
-    for char in line:
-        if char != ' ' and char != '\t' and char != '\n':
-            score += 1
-        if char == '\n':
-            score += 3
+    l = line.strip()
+    if not l.startswith("#"):
+        for char in line:
+            if char != ' ' and char != '\t' and char != '\n':
+                score += 1
+            if char == '\n':
+                score += 3
 
 print "Challenge Score (Lower is Better): ", score

@@ -1,7 +1,7 @@
 What Needs To Be Done For the Scorer (write your name next to each when start doing and delete when done):
 ========================================================================================================
 
-1. Have scorer support ignoring comments
+1. *DONE* Have scorer support ignoring comments -blakedut2
 2. Have scorer support pulling name from first comment (idea is first line of code is # Name so we know who's it is)
 3. Have Scorer Support removing raw_input (so it doesn't matter if I make a prompt say: "num:" or "Please Enter A Number:", they're the same)
 
