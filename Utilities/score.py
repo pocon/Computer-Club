@@ -21,6 +21,7 @@ Authors:
 import sys
 import os
 import glob
+import operator
 
 # getScore counts the score of the file and returns an int
 def getScore (file):
@@ -61,9 +62,17 @@ def getName(file):
 
 # Code to open files
 path = 'files/'
+# Create dictionary to write the names and scores to
+scores = dict()
 for infile in glob.glob( os.path.join(path, '*.py') ):
     if getName(infile):
-        print getName(infile) + ": ", getScore(infile)
+        scores[getName(infile)] = getScore(infile)
     else:
         print "No name (" + infile + "): ", getScore(infile)
-    
+        #If there is no name it will return the path for "rectifying the situation"
+
+s_sorted = sorted(scores.iteritems(), key=operator.itemgetter(1))
+
+s = dict()
+for item in s_sorted:
+    print item
