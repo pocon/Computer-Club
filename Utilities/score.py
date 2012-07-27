@@ -76,7 +76,7 @@ s_sorted = sorted(scores.iteritems(), key=operator.itemgetter(1))
 # Write file generation code here
 for item in s_sorted:
     ds = str(item)
-    ds = ds[2:-1]
+    ds = ds[2:-1].replace('\',', ':')
     # TODO: Workout way to remove bad formatting from string
     print ds
     
