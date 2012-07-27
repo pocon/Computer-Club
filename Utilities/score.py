@@ -73,6 +73,11 @@ for infile in glob.glob( os.path.join(path, '*.py') ):
 
 s_sorted = sorted(scores.iteritems(), key=operator.itemgetter(1))
 
-s = dict()
+# Write file generation code here
 for item in s_sorted:
-    print item
+    ds = str(item)
+    ds = ds[2:-1]
+    # TODO: Workout way to remove bad formatting from string
+    print ds
+    
+    
