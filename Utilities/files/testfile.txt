@@ -1,8 +1,8 @@
 What Needs To Be Done For the Scorer (write your name next to each when start doing and delete when done):
 ========================================================================================================
 
-1. *DONE* Have scorer support ignoring comments -blakedut2 (changed around a bit - peterarenot)
-2. *DONE* Have scorer support pulling name from first comment (idea is first line of code is #Name so we know who's it is) -peterarenot
+1. *DONE* Have scorer support ignoring comments -blakedut2
+2. Have scorer support pulling name from first comment (idea is first line of code is # Name so we know who's it is)
 3. Have Scorer Support removing raw_input (so it doesn't matter if I make a prompt say: "num:" or "Please Enter A Number:", they're the same)
 
 4. Make Scorer into an object (Score) to which its initialiser is fed a filename and it sets the attributes score and name with the values pulled above
