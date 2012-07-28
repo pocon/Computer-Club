@@ -43,7 +43,7 @@ That is, [3,4,2] should be ordered to [2,3,4] (i.e. in order of size)
 
 [10,8,[3,4,2]] should be ordered to [8,[3,4,2],10] (index of [3,4,2] is 9, so it goes "between" 8 and 10 in size)
 
-[[4,[3,1],2],8,[3,4,[1,1]]] should be ordered to [8,[[1,1],3,4],[2,[1,3],4]] (index of [[1,1],3,4] is index of [1,1]+3+4=2+3+4=9, and index of [4,[3,1],2] is 4+index of [3,1]+2=4+4+2=10)
+[[4,[3,1],2],8,[3,4,[1,1]]] should be ordered to [8,[[1,1],3,4],[2,[1,3],4]] (index of [[1,1],3,4] index of [1,1]+3+4=2+3+4=9, and index of [4,[3,1],2] is 4+index of [3,1]+2=4+4+2=10)
 
 NB: we don't care about the order if two indices/sizes are the same, for example [[1,3],4] and [4,[1,3]] are both valid.
 
