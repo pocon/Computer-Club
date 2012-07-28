@@ -65,10 +65,13 @@ class Leaderboard:
 
     def output(self):
         with open('leaderboard.md', 'w') as f:
-            f.write("# LeaderBoard for prime.py")
+            f.write("# Challenge LeaderBoard #")
+            f.write("<table><tr><th>Rank</th><th>Name</th><th>Score</th></tr>")
             for score in self.scores:
-                formatted = "\n" + score.name + ": " + str(score.score)
+                formatted = "<tr><tb>%d</tb><tb>%s</tb><tb>%d</tb></tr>" % (1, score.name, score.score)
                 f.write(formatted)
+                
+            f.write("</table>")
                 
         
 if __name__ == '__main__':
