@@ -28,10 +28,10 @@ import glob
 
 class Score:
     def __init__(self, file):
-        self.SetScore(file)
-        self.SetName(file)
+        self.setscore(file)
+        self.setname(file)
 
-    def SetScore(self, file):
+    def setscore(self, file):
         self.score = 0
         f = open(file, 'r')
         for line in f.readlines():
@@ -44,7 +44,7 @@ class Score:
 
 
 
-    def SetName(self, file):
+    def setname(self, file):
         f = open(file, 'r')
         l = f.readline().strip()
         if l.startswith("#"):
