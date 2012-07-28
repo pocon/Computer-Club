@@ -76,8 +76,8 @@ class Leaderboard:
                 
         
 if __name__ == '__main__':
-    pa = sys.argv[1]
     if (len(sys.argv) > 1): # Check for arguments
+        pa = sys.argv[1]
         if ".py" in pa:
             print Score(pa).name + ": ", Score(pa).score # If python then score and print
         else:
