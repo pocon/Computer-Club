@@ -10,6 +10,8 @@ Scorer rules:
 
 How to Use:
   Place this file in a folder and in the same folder create a folder called "files". Put all the .py files in this folder. Now run score.py.
+  OR
+  Give a py file to score and it will print the score
   
 Authors:
   - pocon
@@ -41,10 +43,11 @@ class Score:
 
 
     def SetName(self, file):
-        linenum = 0
         f = open(file, 'r')
         l = f.readline().strip()
-        if l.startswith("#"):
+        if l.startswith("# "):
+            self.name = l[2:] # Ignore the hash and space then save the name
+        elif l.startswith("#"):
             self.name = l[1:] # Ignore the hash and save the name
         else:
             self.name = f.name
@@ -61,10 +64,17 @@ class Leaderboard:
         self.scores = sorted(self.scores, key=lambda score: score.score)
 
     def output(self):
-        for score in self.scores:
-            print score.name, score.score
+        with open('leaderboard.md', 'w') as f:
+            f.write("# LeaderBoard for prime.py")
+            for score in self.scores:
+                formatted = "\n" + score.name + ": " + str(score.score)
+                f.write(formatted)
+                
         
 if __name__ == '__main__':
-    board = Leaderboard('files/')
-    board.output()
+    if (len(sys.argv) > 1):
+        print Score(sys.argv[1]).name + ": ", Score(sys.argv[1]).score
+    else:
+        board = Leaderboard('files/')
+        board.output()
 
