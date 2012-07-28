@@ -40,7 +40,8 @@ class Score:
                 for char in line:
                     if char != ' ' and char != '\t' and char != '\n':
                         self.score += 1
-                    # NEED TO FIX \n. if we just increment by 3, comments are counted as 3
+                    if char == '\n':
+                        self.score += 3
 
 
 
@@ -65,10 +66,13 @@ class Leaderboard:
 
     def output(self):
         with open('leaderboard.md', 'w') as f:
-            f.write("# LeaderBoard for prime.py")
-            for score in self.scores:
-                formatted = "\n" + score.name + ": " + str(score.score)
+            f.write("# Challenge LeaderBoard # \n")
+            f.write("<table><tr><th>Rank</th><th>Name</th><th>Score</th></tr> \n")
+            for i, score in enumerate(self.scores, start=1):
+                formatted = "<tr><td>%d</td><td>%s</td><td>%d</td></tr> \n" % (i, score.name, score.score)
                 f.write(formatted)
+                
+            f.write("</table>")
                 
         
 if __name__ == '__main__':
