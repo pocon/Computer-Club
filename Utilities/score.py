@@ -5,13 +5,15 @@ Scorer rules:
   -> Whitespace (' ') is ignored
   -> Tabs are ignored
   -> Newlines count for THREE POINTS (v. Bad)
-  -> Comments that take up a whole line (start at first  character) are ignored
+  -> Comments that take up a whole line (ones that start at the first character) are ignored
   -> Name must be on first line in format (#First Last)
 
 How to Use:
   Place this file in a folder and in the same folder create a folder called "files". Put all the .py files in this folder. Now run score.py.
   OR
-  Give a py file to score and it will print the score
+  Give a py file to score and it will print the score.
+  OR
+  Specify a folder (i.e. Bob/solutions/) and it will score the whole folder.
   
 Authors:
   - pocon
@@ -70,9 +72,14 @@ class Leaderboard:
                 
         
 if __name__ == '__main__':
-    if (len(sys.argv) > 1):
-        print Score(sys.argv[1]).name + ": ", Score(sys.argv[1]).score
+    pa = sys.argv[1]
+    if (len(sys.argv) > 1): # Check for arguments
+        if ".py" in pa:
+            print Score(pa).name + ": ", Score(pa).score # If python then score and print
+        else:
+            board = Leaderboard(pa) # If not python assume is folder
+            board.output()
     else:
-        board = Leaderboard('files/')
+        board = Leaderboard('files/') # If folder not specified use "files"
         board.output()
 
