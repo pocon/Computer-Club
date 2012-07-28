@@ -21,63 +21,50 @@ Authors:
 import sys
 import os
 import glob
-import operator
 
-# getScore counts the score of the file and returns an int
-def getScore (file):
-    score = 0
-    c = 0
-    f = open(file, 'r')
-    for line in f.readlines():
-        l = line.strip()
-        # Check for comment
+class Score:
+    def __init__(self, file):
+        self.SetScore(file)
+        self.SetName(file)
+
+    def SetScore(self, file):
+        self.score = 0
+        f = open(file, 'r')
+        for line in f.readlines():
+            l = line.strip()
+            if not l.startswith("#"):
+                for char in line:
+                    if char != ' ' and char != '\t' and char != '\n':
+                        self.score += 1
+                    # NEED TO FIX \n. if we just increment by 3, comments are counted as 3
+
+
+
+    def SetName(self, file):
+        linenum = 0
+        f = open(file, 'r')
+        l = f.readline().strip()
         if l.startswith("#"):
-            # KNOWN BUG: If you comment, you still get charged the three points from the previous line, as long as a comment is not the last line of the file the score adjusts its self
-            c += 1 #This is needed, if anyone knows a way to remove this then change it!
+            self.name = l[1:] # Ignore the hash and save the name
         else:
-            for char in line:
-                if char != ' ' and char != '\t' and char != '\n':
-                    score += 1
-                if char == '\n':
-                    score += 3
-    return score
+            self.name = f.name
 
-# getName takes a file and returns it as a string or an errorcode of 1
-def getName(file):
-    linenum = 0
-    name = ''
-    f = open(file, 'r')
-    for line in f.readlines():
-        l = line.strip()
-        linenum += 1
-        # Check for comment, if line starts with comment then ignore.
-        if linenum == 1:
-            if l.startswith("#"):
-                # Ignore the hash and save the name
-                name = l[1:]
-                return name
-            else:
-                # No name means its invalid. Return an error message.
-                return 0
 
-# Code to open files
-path = 'files/'
-# Create dictionary to write the names and scores to
-scores = dict()
-for infile in glob.glob( os.path.join(path, '*.py') ):
-    if getName(infile):
-        scores[getName(infile)] = getScore(infile)
-    else:
-        print "No name (" + infile + "): ", getScore(infile)
-        #If there is no name it will return the path for "rectifying the situation"
+class Leaderboard:
+    def __init__(self, folder):
+        self.scores = []
+        for infile in glob.glob(os.path.join(folder, '*.py')):
+            self.scores += [Score(infile)]
+        self.sort()
 
-s_sorted = sorted(scores.iteritems(), key=operator.itemgetter(1))
+    def sort(self):
+        self.scores = sorted(self.scores, key=lambda score: score.score)
 
-# Write file generation code here
-for item in s_sorted:
-    ds = str(item)
-    ds = ds[2:-1].replace('\',', ':')
-    # TODO: Workout way to remove bad formatting from string
-    print ds
-    
-    
+    def output(self):
+        for score in self.scores:
+            print score.name, score.score
+        
+if __name__ == '__main__':
+    board = Leaderboard('files/')
+    board.output()
+
