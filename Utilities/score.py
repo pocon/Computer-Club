@@ -68,7 +68,7 @@ class Leaderboard:
             f.write("# Challenge LeaderBoard # \n")
             f.write("<table><tr><th>Rank</th><th>Name</th><th>Score</th></tr> \n")
             for score in self.scores:
-                formatted = "<tr><tb>%d</tb><tb>%s</tb><tb>%d</tb></tr> \n" % (1, score.name, score.score)
+                formatted = "<tr><td>%d</td><td>%s</td><td>%d</td></tr> \n" % (1, score.name, score.score)
                 f.write(formatted)
                 
             f.write("</table>")

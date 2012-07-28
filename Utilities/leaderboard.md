@@ -1,6 +1,6 @@
 # Challenge LeaderBoard # 
 <table><tr><th>Rank</th><th>Name</th><th>Score</th></tr> 
-<tr><tb>1</tb><tb>Bob Brown</tb><tb>7</tb></tr> 
-<tr><tb>1</tb><tb>files/testingfile3.py</tb><tb>22</tb></tr> 
-<tr><tb>1</tb><tb>Sir Francis Drake</tb><tb>28</tb></tr> 
+<tr><td>1</td><td>Bob Brown</td><td>7</td></tr> 
+<tr><td>1</td><td>files/testingfile3.py</td><td>22</td></tr> 
+<tr><td>1</td><td>Sir Francis Drake</td><td>28</td></tr> 
 </table>
