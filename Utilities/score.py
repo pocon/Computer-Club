@@ -45,10 +45,8 @@ class Score:
     def SetName(self, file):
         f = open(file, 'r')
         l = f.readline().strip()
-        if l.startswith("# "):
-            self.name = l[2:] # Ignore the hash and space then save the name
-        elif l.startswith("#"):
-            self.name = l[1:] # Ignore the hash and save the name
+        if l.startswith("#"):
+            self.name = l[1:].strip()
         else:
             self.name = f.name
 
