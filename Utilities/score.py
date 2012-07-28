@@ -40,7 +40,8 @@ class Score:
                 for char in line:
                     if char != ' ' and char != '\t' and char != '\n':
                         self.score += 1
-                    # NEED TO FIX \n. if we just increment by 3, comments are counted as 3
+                    if char == '\n':
+                        self.score += 3
 
 
 
