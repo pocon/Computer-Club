@@ -65,10 +65,10 @@ class Leaderboard:
 
     def output(self):
         with open('leaderboard.md', 'w') as f:
-            f.write("# Challenge LeaderBoard #")
-            f.write("<table><tr><th>Rank</th><th>Name</th><th>Score</th></tr>")
+            f.write("# Challenge LeaderBoard # \n")
+            f.write("<table><tr><th>Rank</th><th>Name</th><th>Score</th></tr> \n")
             for score in self.scores:
-                formatted = "<tr><tb>%d</tb><tb>%s</tb><tb>%d</tb></tr>" % (1, score.name, score.score)
+                formatted = "<tr><tb>%d</tb><tb>%s</tb><tb>%d</tb></tr> \n" % (1, score.name, score.score)
                 f.write(formatted)
                 
             f.write("</table>")
