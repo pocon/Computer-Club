@@ -33,15 +33,20 @@ class Score:
 
     def setscore(self, file):
         self.score = 0
+        firstline = True
         f = open(file, 'r')
         for line in f.readlines():
             l = line.strip()
-            if not l.startswith("#"):
+            if l.startswith("#"):
+                if firstline != True:
+                    self.score -= 3
+            else:
                 for char in line:
                     if char != ' ' and char != '\t' and char != '\n':
                         self.score += 1
                     if char == '\n':
                         self.score += 3
+            
 
 
 
