@@ -25,6 +25,10 @@ Plan For Week 2 (28 JUL 12)
   - <= - Less Than Or Equal To
   - >= - Greater Than Or Equal To
 
+### Dictionaries ###
+- Use ['name'] to access
+- Can be defined JSON-Style
+
 ## Program Flow ##
 ### For Loop ###
 - for x in y:
