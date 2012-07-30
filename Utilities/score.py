@@ -25,6 +25,7 @@ Authors:
 import sys
 import os
 import glob
+import re
 
 class Score:
     def __init__(self, file):
@@ -33,21 +34,21 @@ class Score:
 
     def setscore(self, file):
         self.score = 0
-        firstline = True
         f = open(file, 'r')
+        inputloc = re.compile('input\(.*\)')
+        ims = 0
         for line in f.readlines():
             l = line.strip()
-            if l.startswith("#"):
-                if firstline != True:
-                    self.score -= 3
-            else:
+            m = inputloc.search(l)
+            if m:
+                ims += len(m.group()) -9
+            if not l.startswith("#"):
                 for char in line:
                     if char != ' ' and char != '\t' and char != '\n':
                         self.score += 1
                     if char == '\n':
                         self.score += 3
-            
-
+        self.score -= ims
 
 
     def setname(self, file):
