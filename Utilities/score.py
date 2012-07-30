@@ -35,11 +35,11 @@ class Score:
     def setscore(self, file):
         self.score = 0
         f = open(file, 'r')
-        imputloc = re.compile('imput\(.*\)')
+        inputloc = re.compile('input\(.*\)')
         ims = 0
         for line in f.readlines():
             l = line.strip()
-            m = imputloc.search(l)
+            m = inputloc.search(l)
             if m:
                 ims += len(m.group()) -9
             if not l.startswith("#"):
