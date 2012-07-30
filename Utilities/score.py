@@ -39,15 +39,16 @@ class Score:
         ims = 0
         for line in f.readlines():
             l = line.strip()
-            if imputloc.search(l):
-                ims += 1
+            m = imputloc.search(l)
+            if m:
+                ims += len(m.group()) -9
             if not l.startswith("#"):
                 for char in line:
                     if char != ' ' and char != '\t' and char != '\n':
                         self.score += 1
                     if char == '\n':
                         self.score += 3
-        self.score -= ims*9
+        self.score -= ims
 
 
     def setname(self, file):
