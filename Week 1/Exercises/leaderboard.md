@@ -1,4 +1,4 @@
-# Challenge LeaderBoard # 
+# Challenge LeaderBoard  - Week 1
 <table><tr><th>Rank</th><th>Name</th><th>Score</th></tr> 
 <tr><td>1</td><td>Evan Hockings</td><td>112</td></tr> 
 <tr><td>2</td><td>Edmund</td><td>119</td></tr> 
