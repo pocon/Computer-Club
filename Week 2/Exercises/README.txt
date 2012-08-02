@@ -1,11 +1,7 @@
 Week 2 Exercises
 =================
 
-TBA
-
 ### Challenge - Indefinitely Nested Lists ###
-
-Note 1: We've put this up early in case experienced people want to have a crack at it, everyone else shouldn't worry too much because you'll learn more useful stuff that you MIGHT need (we haven't done it yet either) this coming Tuesday.
 
 Note 2: This challenge is possibly a little too difficult/abstract for week 2, if you can't do it don't freak out.
 
