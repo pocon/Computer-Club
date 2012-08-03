@@ -17,7 +17,7 @@ n = giveTen() # n is now 10 (just the same as n = 10), note the () on the end
 print n
 
 def addOne(x): # Variables can be added in the brackets to 'pass on' inputs, so the function can do more interesting stuff and change based on what you wrote
-    return x += 1
+    return x + 1
 
 o = addOne(9) # passes 9 onto addOne, so x = 9 in addOne
 print o
