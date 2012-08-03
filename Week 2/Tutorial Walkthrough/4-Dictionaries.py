@@ -17,6 +17,18 @@ print {"one":1,"two":2,"three":3}=={"two":2,"three":3,"one":1} # Notice how we d
 del mydict2["two"]
 print mydict2 # You can delete a key-value pair using del.
 
+''' Note on using del with lists
+
+You can also use the del command with lists, to remove a value at a specific index '''
+
+mylist1=[1,2,3,4,5,6,7,8]
+print mylist1
+del mylist1[4] # Removes 5
+print mylist1
+print mylist1[4] # Everything is shifted up, so mylist[4] is now 6
+
+''' End random tangent with lists '''
+
 print len(mydict2) # len() returns the number of key-value pairs in a dict
 
 # A quick and dirty introduction to methods and objects.

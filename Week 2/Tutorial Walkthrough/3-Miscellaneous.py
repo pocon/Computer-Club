@@ -36,3 +36,21 @@ print a,"Play School" # Disclaimer: Tutorials are for educational purposes only 
 print "There shouldn't be a new line after this",
 print "See?"
 
+# Some more advanced features of basic stuff. If you like, read through the python reference and links to other python tutorials to learn more features. This is only scratching the surface
+
+# type() will return a special "type" object that represents the data type of the thing entered
+
+print type(0) # int
+print type("mystring") # string
+print type([1,5,2]) # list
+
+test="mystring"
+print type(test)==type("cheese") # You can compare types, here both are strings so we get True
+
+# append() and pop() remove or add objects from/to the end of a LIST
+mylist=[1,2,3,4,5]
+print mylist
+mylist.append("cheese")
+print mylist
+mylist.pop()
+print mylist
