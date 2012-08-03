@@ -66,39 +66,3 @@ A copy of the challenge scorer is available here: https://github.com/pocon/Compu
 #### Extension ####
 
 TBA
-
-#### Challenge Hints ####
-
-Do not look below this if you don't want hints, etc.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Hint 1: Use recursion. Try to write a program that does something simpler then the full specification, such as computing the index of an indefinitely nested list.
