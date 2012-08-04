@@ -1,0 +1,4 @@
+Challenge Hints
+
+
+Hint 1: Use recursion. Try to write a program that does something simpler then the full specification, such as computing the index of an indefinitely nested list.
