@@ -1,4 +1,3 @@
 #Bob Brown
-i = 0
-#Hello
-i += 1
+#input(gday)
+1

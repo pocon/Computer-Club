@@ -40,13 +40,13 @@ class Score:
         ims = 0
         for i, line in enumerate(f):
             l = line.strip()
-            m = inputloc.search(l)
-            if m:
-                ims += len(m.group()) -9
             if l.startswith("#"):
                 if i == len(f) - 1:
                     self.score += 3
             else:
+                m = inputloc.search(l)
+                if m:
+                    ims += len(m.group()) -9
                 for char in line:
                     if char != ' ' and char != '\t' and char != '\n':
                         self.score += 1
