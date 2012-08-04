@@ -39,11 +39,11 @@ Some examples of "indefinitely nested lists" that should make the concept cleare
 
 ^ This is an example of a list of lists of integers.
 
-  [4,7,[8,1],[3,6,4]]
+      [4,7,[8,1],[3,6,4]]
 
 ^ This is an example of a list of integers and lists of integers.
 
-  [[6,8,[3,56],[5,3]],[5,6],85,62,[-32,[4,-7]]]
+      [[6,8,[3,56],[5,3]],[5,6],85,62,[-32,[4,-7]]]
 
 ^ This is an example of a list of integers and lists of integers and lists of integers.
 
@@ -61,11 +61,19 @@ I sum the integer elements (5 and 9) and the indices of the indefinitely nested 
 
 For no apparent reason Patrick O'Connell has an "indefinitely nested list" lying around, as all cool kids do. He also coincidentally likes ordering things. Write as short a program as possible that takes in an "indefinitely nested list" and orders all elements and sub-elements according to size/index and then prints the ordered list.
 
-That is, [3,4,2] should be ordered to [2,3,4] (i.e. in order of size)
+That is:
 
-[10,8,[3,4,2]] should be ordered to [8,[3,4,2],10] (index of [3,4,2] is 9, so it goes "between" 8 and 10 in size)
+      [3,4,2]   
+      
+should be ordered to:
 
-[[4,[3,1],2],8,[3,4,[1,1]]] should be ordered to [8,[[1,1],3,4],[2,[1,3],4]] (index of [[1,1],3,4] index of [1,1]+3+4=2+3+4=9, and index of [4,[3,1],2] is 4+index of [3,1]+2=4+4+2=10)
+      [2,3,4] (i.e. in order of size)
+      
+Others:
+
+      [10,8,[3,4,2]] -> [8,[3,4,2],10] (index of [3,4,2] is 9, so it goes "between" 8 and 10 in size)
+
+      [[4,[3,1],2],8,[3,4,[1,1]]] -> [8,[[1,1],3,4],[2,[1,3],4]] (index of [[1,1],3,4] index of [1,1]+3+4=2+3+4=9, and index of [4,[3,1],2] is 4+index of [3,1]+2=4+4+2=10)
 
 NB: we don't care about the order if two indices/sizes are the same, for example [[1,3],4] and [4,[1,3]] are both valid.
 
