@@ -3,6 +3,7 @@
 All people attempting this challenge should have completed:
 * Week 2 Excercise 5 (simple logon program)
 * Peter's Caesar Shift challenge
+
 ##Objectives:
 * Your program should be able to store all login information in a text file (exactly like the logon excercise)
 * You should offer a registration or logon page,
