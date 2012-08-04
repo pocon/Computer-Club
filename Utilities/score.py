@@ -38,20 +38,17 @@ class Score:
         f = f.readlines()
         inputloc = re.compile('input\(.*\)')
         ims = 0
+        firstline = True
         for i, line in enumerate(f):
             l = line.strip()
-            m = inputloc.search(l)
-            if m:
-                ims += len(m.group()) -9
-            if l.startswith("#"):
-                if i == len(f) - 1:
-                    self.score += 3
-            else:
+            if not l.startswith("#"):
+                if firstline: firstline = False
+                else: self.score += 3
+                m = inputloc.search(l)
+                if m: ims += len(m.group()) -9
                 for char in line:
                     if char != ' ' and char != '\t' and char != '\n':
                         self.score += 1
-                    if char == '\n':
-                        self.score += 3
         self.score -= ims
 
 

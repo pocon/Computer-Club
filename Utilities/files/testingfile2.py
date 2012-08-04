@@ -1,4 +1,6 @@
 #Bob Brown
-i = 0
-#Hello
-i += 1
+1
+#hi
+2
+#hi
+6
