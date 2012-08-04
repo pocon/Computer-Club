@@ -3,9 +3,13 @@
 Intro to Arguments
 
 
-Arguments are things that you can pass onto your program when you start it, from the commandline. EG, instead of prompting for a name later, you could pass it as:
+Arguments are things that you can pass onto your program when you start it, from the commandline, allowing you to change the execution without using input() each time. EG, instead of prompting for a number to test later in your prime tester, you could pass it as:
 
-python program.py MyName
+python program.py 23
+
+This can just be accessed via a list, as we'll see below. You can have as many arguments as you want:
+
+python program.py 23 4321 patrick 1324
 
 '''
 
