@@ -7,7 +7,7 @@ All people attempting this challenge should have completed:
 ##Objectives:
 * Your program should be able to store all login information in a text file (exactly like the logon excercise)
 * You should offer a registration or logon page,
-    *Registration should ask for a username and password (which is to be entered twice for confirmation)
+    * Registration should ask for a username and password (which is to be entered twice for confirmation)
     * If the username is already taken, or the re-entered password is incorrect, ask them to re-enter it
     * Logging in should simply print a welcome message and your username
     * To ensure security, the password in the text file **must not** be unencrypted
