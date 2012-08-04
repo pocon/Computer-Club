@@ -35,21 +35,23 @@ class Score:
     def setscore(self, file):
         self.score = 0
         f = open(file, 'r')
+        f = f.readlines()
         inputloc = re.compile('input\(.*\)')
         ims = 0
-        ln = 0
-        for line in f.readlines():
+        for i, line in enumerate(f):
             l = line.strip()
             m = inputloc.search(l)
             if m:
                 ims += len(m.group()) -9
-            if not l.startswith("#"):
-                if ln:
+            if l.startswith("#"):
+                if i == len(f) - 1:
                     self.score += 3
+            else:
                 for char in line:
                     if char != ' ' and char != '\t' and char != '\n':
                         self.score += 1
-                ln += 1
+                    if char == '\n':
+                        self.score += 3
         self.score -= ims
 
 
