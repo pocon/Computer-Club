@@ -52,5 +52,5 @@ mylist=[1,2,3,4,5]
 print mylist
 mylist.append("cheese")
 print mylist
-mylist.pop()
+print mylist.pop() # pop() will also return the object that it popped
 print mylist

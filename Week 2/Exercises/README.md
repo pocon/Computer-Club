@@ -3,7 +3,7 @@ Week 2 Exercises
 
 1. Write a program that takes in 2 integers and prints their quotient rounded to the nearest integer. ie 3/4 = 1, 8/5 = 2.
 
-2. Write a program that accepts an integer and prints either that integer's floor or ceiling (floor means the integer part of the number (25.678543 -> 25) whilst ceiling is just the floor + 1) depending on user input (ie if the user types in "ceiling", you return the ceiling, etc)
+2. Write a program that accepts a number and prints either that number's floor or ceiling (floor means the integer part of the number (25.678543 -> 25) whilst ceiling is just the floor + 1) depending on user input (ie if the user types in "ceiling", you return the ceiling, etc)
 
 3. Write a program that accepts a mathematical expression (addition and multiplication mod 10 only) using single digit numbers only in postfix notation as a string and computes the result. An example of a postfix expression is 23+5*8+. In postfix notation, as numerical values are read from the expression from left to right, they are appended to a list (originally empty). When an operator (ie + or *) is read, two values are popped off the list, the operation performed on them and the result appended to the list. In this case, our addition and multiplication operators are modulo 10 (ie use the % notation) so all your intermediate values and final answer should be single digit.
 
