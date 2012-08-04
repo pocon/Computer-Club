@@ -1,3 +1,6 @@
 #Bob Brown
-#input(gday)
 1
+#hi
+2
+#hi
+6
