@@ -83,6 +83,7 @@ The winner gets a $20 iTunes voucher, your code MUST WORK to win. The challenge 
 - Correctness: To what extent is the code consistent with the specifications and free of bugs
 - Design: To what extent is the code written well (clearly, efficiently and logically)
 - Style: To what extent is the code readable (commented, variables named logically)
+
 There will be other prizes so please at least attempt it!
 
 Found a problem (or a spelling error, there will be many)? Summit a pull request or tell me on the groups!
