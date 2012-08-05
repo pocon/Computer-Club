@@ -2,7 +2,7 @@
 This challenge is related to encryption and passwords on computers. You will create a script that encrypts a string and then prints out the encrypted version.
 
 ## About encryption
-There are many different forms of encryption. The types that are used in modern computers are very complex and hard to break. This challenge involves one of the simplest ciphers, the Caesar Cypher.
+There are many different forms of encryption. The types that are used in modern computers are very complex and hard to break. This challenge involves one of the simplest ciphers, the Caesar Cipher.
 
 This cipher involves rotating the alphabet around by a given number of characters (the key). The cipher was used by Caesar to send messages to his commanders that could not be read by the enemy. All he needed was to agree on a key before hand and then the message could be read.
 
@@ -30,18 +30,19 @@ Uryyb jbeyq!
 - Must take a positive integer as an argument (or other input if you must)
 - If the key is not a positive integer the program must print an error and either ask again or stop
 - Must take a string as input
-- If a string is not given you must ask again for a string or stop
+- If a string is not given you must ask again for a string or exit
 - Must encrypt the string using the key and then print the ciphertext
 - All punctuation (spaces, periods, commas) and numbers must remain
 - All capitals must remain
 - The cipher must wrap around (Z rotated by 1 is A)
+- You MUST include your name at the top of the file (# Bob Brown)
 
 ## How to do it?
 
 ### Formula
 Here is the formula:
-`c=(p+k)%26`
-Where c is a letter in the ciphertext, p is the corresponding letter in plaintext and k is the key. This formula may seem very complicated, much more so then it really is.
+`o=(c+k)%26`
+Where o is a letter in the ciphertext (output), c is the corresponding letter in plaintext and k is the key. This formula may seem very complicated, much more so then it really is.
 
 ### ASCII
 To complete this you are going to need to use the ASCII character table (http://www.asciitable.com/). Here you can see that "a" is represented by the int "97" and "A" by "65". How can you convert the character to the int value? Simply use `ord()`. Eg: `ord("a") == 97`
@@ -61,10 +62,10 @@ This gets each letter in "s" and calls it "c". So to print each letter out you w
 
 ### Maintaining capitals
 You will need to check if each character is a capital or a number or punctuation. To do this you need to use str functions
-First, `import str` at the top of your file. Then you can call:
-- `str.isalpha(c)` which returns True or False is the character c is a letter
-- `str.isnumeric(c)` which returns True or false if the character c is a number
-- `str.isupper(c)` which returns True or false if the character c is an uppercase letter
+You can call:
+- `c.isalpha()` which returns True or False is the character c is a letter
+- `c.isdigit()` which returns True or false if the character c is a number
+- `c.isupper()` which returns True or false if the character c is an uppercase letter
 
 You are able to test for punctuation with these functions as well!
 
@@ -84,6 +85,7 @@ The winner gets a $20 iTunes voucher, your code MUST WORK to win. The challenge 
 - Design: To what extent is the code written well (clearly, efficiently and logically)
 - Style: To what extent is the code readable (commented, variables named logically)
 
+The size of the program (its score) does not count for anything. Making it work is the main thing!
 There will be other prizes so please at least attempt it!
 
 Found a problem (or a spelling error, there will be many)? Summit a pull request or tell me on the groups!
