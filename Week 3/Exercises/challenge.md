@@ -2,7 +2,7 @@
 This challenge is related to encryption and passwords on computers. You will create a script that encrypts a string and then prints out the encrypted version.
 
 ## About encryption
-There are many different forms of encryption. The types that are used in modern computers are very complex and hard to break. This challenge involves one of the simplest ciphers, the Caesar Cypher.
+There are many different forms of encryption. The types that are used in modern computers are very complex and hard to break. This challenge involves one of the simplest ciphers, the Caesar Cipher.
 
 This cipher involves rotating the alphabet around by a given number of characters (the key). The cipher was used by Caesar to send messages to his commanders that could not be read by the enemy. All he needed was to agree on a key before hand and then the message could be read.
 
