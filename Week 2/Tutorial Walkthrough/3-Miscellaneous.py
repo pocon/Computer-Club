@@ -36,6 +36,16 @@ print a,"Play School" # Disclaimer: Tutorials are for educational purposes only 
 print "There shouldn't be a new line after this",
 print "See?"
 
+# The in statement
+
+# In addition to use in "for x in y" loops, in can be used to check to see if a certain value is in a list, returning a Boolean as shown below
+
+mylist1=[1,5,2,4,7,4,3]
+if 5 in mylist1:
+ print "5 is in the list!"
+mylist1[1]=0
+print (5 in mylist1)
+
 # Some more advanced features of basic stuff. If you like, read through the python reference and links to other python tutorials to learn more features. This is only scratching the surface
 
 # type() will return a special "type" object that represents the data type of the thing entered
