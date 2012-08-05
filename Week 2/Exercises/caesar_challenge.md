@@ -78,7 +78,12 @@ To print each character without a newline you must either append all characters 
 # Done?
 This solution is due on the 14th so you can ask questions on Tuesday or on the Google Group! I will tell you how to submit on Tuesday!
 
-The winner gets a $20 iTunes voucher, your code MUST WORK to win. The winner will be the person with the best code. There will be other prizes so please at least attempt it!
+The winner gets a $20 iTunes voucher, your code MUST WORK to win. The challenge will be scored based on its:
+- Scope: To what extent does the code implement the features specified in this document
+- Correctness: To what extent is the code consistent with the specifications and free of bugs
+- Design: To what extent is the code written well (clearly, efficiently and logically)
+- Style: To what extent is the code readable (commented, variables named logically)
+There will be other prizes so please at least attempt it!
 
 Found a problem (or a spelling error, there will be many)? Summit a pull request or tell me on the groups!
 
