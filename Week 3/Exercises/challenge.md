@@ -35,6 +35,7 @@ Uryyb jbeyq!
 - All punctuation (spaces, periods, commas) and numbers must remain
 - All capitals must remain
 - The cipher must wrap around (Z rotated by 1 is A)
+- You MUST include your name at the top of the file (# Bob Brown)
 
 ## How to do it?
 
