@@ -13,5 +13,5 @@ print num-int(num2)
 
 # Two Liner:
 
-num = input("Enter The Number To Be Tested: ")
+num = raw_input("Enter The Number To Be Tested: ")
 print num[::-1] == num
