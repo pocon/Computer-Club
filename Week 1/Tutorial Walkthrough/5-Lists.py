@@ -16,7 +16,7 @@ print t[0] # Accesses the First Item in the List (the first item is at 0, not 1.
 print t[2] # Access the third item in the List (in this case 3)
 print t[0:1] # Accesses the First Through to Second Items in the list
 print t[:1] # Same as above. Leaving out the first number defaults to 0 (or the first item)
-print t[1:] # Accesses everything in the list from the First item on (through to the last item)
+print t[1:] # Accesses everything in the list from the Second item on (Including the Second Item, through to the last item)
 
 # Handily, you can access strings as though they were lists and each of the members of the list are the characters, or letters of the string:
 
