@@ -1,0 +1,22 @@
+Conway's Game of Life is a 2D grid simulation of cells that evolves from an initial given state according to a set of defined rules.
+
+The initial state is simply a square grid of cells, extending infinitely in all directions, all of which are either "dead" or "alive". Each cell has 8 neighbours, which are simply the 8 cells around it.
+
+At every iteration or step in time, every cell is assigned a new value, "dead" or "alive", based on the following rules:
+
+1. A "alive" cell that has less than 2 "alive" neighbours dies.
+2. A "alive" cell that has more than 3 "alive" neighbours dies.
+3. A "alive" cell that has 2 or 3 "alive" neighbours stays alive.
+4. A "dead" cell that has exactly 3 "alive" neighbours becomes alive.
+
+Note that all these rules are applied simultaneously, to all cells in the system. Only the present state of the system determines whether on the next step, a particular cell will be dead or alive.
+
+Write a Python program that accepts a list of lists of 2 integers, representing the coordinates of the cells that are "alive". For example, [[4,2],[6,8],[2,3]] means the starting state is with live cells at (4,2), (6,8), and (2,3), and all others dead. (Use input() to evaluate the input as a list to save to a variable)
+
+Your program should then accept an integer representing the number of "steps" to simulate. It should then print a list of lists of 2 integers, representing the coordinates of the cells that are "alive" after that number of steps.
+
+More information: https://en.wikipedia.org/wiki/Conway%27s_game_of_life
+
+A cross platform (Linux, Mac, Windows) life simulator that has many more features in addition to the standard Game of Life (such as other rule sets), as well as an extensive cool patterns library: http://golly.sourceforge.net/
+
+A simple Java applet based simulator that also has a large cool patterns library: http://www.ibiblio.org/lifepatterns/
