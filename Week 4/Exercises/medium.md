@@ -11,15 +11,15 @@ Then, all you have to do is print the longest heatwave that occurred
 
 ### Example ###
 
-   Hot Threshold: _30_
-   Enter Temp: _20_
-   Enter Temp: _24_
-   Enter Temp: _31_
-   Enter Temp: _30_
-   Enter Temp: _31_
-   Enter Temp: _32_
-   Enter Temp: _29_
-   Enter Temp: 
+      Hot Threshold: _30_
+      Enter Temp: _20_
+      Enter Temp: _24_
+      Enter Temp: _31_
+      Enter Temp: _30_
+      Enter Temp: _31_
+      Enter Temp: _32_
+      Enter Temp: _29_
+      Enter Temp: 
 
-   Longest Heatwave: 2
+      Longest Heatwave: 2
 
