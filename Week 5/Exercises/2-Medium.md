@@ -9,6 +9,6 @@ For this, you will have to read the documentation on random here (the main part 
 
 ## Example ##
 
-   Die 1: 3
-   Die 2: 4
-   Total: 7
+    Die 1: 3
+    Die 2: 4
+    Total: 7
