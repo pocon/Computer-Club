@@ -63,8 +63,8 @@ Here's a list of a few stocks to try out (techy for the audience):
 
 ## Example ##
 
-   Stock: GOOG
+    Stock: GOOG
    
-   Price: 677.14
-   Exchange: NasdaqNM
-   Market Cap: 221.4B
+    Price: 677.14
+    Exchange: NasdaqNM
+    Market Cap: 221.4B
