@@ -36,7 +36,7 @@ You can then provide 'format operators' to signal what data you want (here are t
 
 Will give:
 
-     price, market cap, exchange, market cap
+     price, market cap, exchange
 
 on just one line (if using one stock).
 
