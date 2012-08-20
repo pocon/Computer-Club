@@ -58,3 +58,10 @@ myfile=open("file2.txt","r")
 print myfile.readlines()
 
 # Note: read(), readline(), and readlines() all return empty strings when they reach the end of the file
+
+# You can also loop through lines in readlines (as it's just a list, really):
+
+myfile = open("file2.txt", "r")
+
+for line in myfile.readlines():
+    print line
