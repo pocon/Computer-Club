@@ -1,4 +1,4 @@
-# Challenge LeaderBoard - Week 5: Fizzbuzz  # 
+# Challenge LeaderBoard - Week 5: Fizzbuzz  
 <table><tr><th>Rank</th><th>Name</th><th>Score</th></tr> 
 <tr><td>1</td><td>Thomas Kunc</td><td>146</td></tr> 
 <tr><td>2</td><td>Bentley Carr</td><td>148</td></tr> 
