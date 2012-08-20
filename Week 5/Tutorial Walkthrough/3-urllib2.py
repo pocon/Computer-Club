@@ -4,7 +4,7 @@ After learning about modules and files, urllib2 is a bit of a mixture between th
 
 http://docs.python.org/library/urllib2
 
-Basically, it allows you to read HTTP Data as you would a file, so you can treat websites a files, more or less.
+Basically, it allows you to read HTTP Data as you would a file, so you can treat websites as files, more or less.
 
 Here's how it works... (after that, read through urllib2 to see what else you can do but much of it is like with files)
 
