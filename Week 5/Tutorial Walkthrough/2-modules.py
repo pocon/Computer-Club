@@ -52,3 +52,43 @@ datetime module) to compressing files using 'gzip' (it's a bit like
 types (like complex numbers, if you know what they are, to cryptographic
 services. Unfortunately, quite a few of them require knowledge of objects,
 which we'll get to at a later date.
+
+Let's try out datetime. It has a few different objects within it but don't
+worry about that for now, all that means for us is that we need to add an
+extra part to the dot notation. It's now module.objecttype.function.
+One of these objects is the date object. Let's try out a few functions.
+
+'''
+
+import datetime
+
+print datetime.date.today() # This prints today's date in YYYY-MM-DD format.
+print datetime.date.today().year # prints the year of today's date
+print datetime.date.today().weekday() # prints the weekday where 0 is Monday
+					# and 6 is Sunday
+print datetime.date(2012, 02, 21) # prints the date of 21 Feb 2012
+print datetime.date(2012, 02, 21).weekday() # gives 1 so 21 Feb 2012 was a
+						# Tuesday
+
+'''
+
+There are also time objects:
+
+'''
+
+import datetime
+
+print datetime.time(13, 34, 12) # prints 13:34:12 (the time in HH:MM:SS)
+				# Note that it uses 24 hour time
+
+'''
+
+There are many other functions and other objects in this class including:
+-the datetime object: combining a date and a time
+-the timedelta object: representing the difference between two dates,
+				time or datetimes.
+-the tzinfo object: representing a timezone.
+
+If you want to look up this module in more detail (or any other module),
+remember to go to the Python Standard Library - it has every Standard
+Module, their objects, their functions and how to use them.

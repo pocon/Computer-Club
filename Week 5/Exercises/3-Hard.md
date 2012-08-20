@@ -26,7 +26,7 @@ Normally, companies will publish a pretty API Doc of the API but yahoo isn't a n
 
 is the base URL. Then, provide on the end:
 
-   ?s=STOCK
+    ?s=STOCK
 
 Where STOCK is a Stock ticker (from finance.yahoo.com, check below for examples).
 
@@ -55,11 +55,11 @@ Will pull down the data for google. Note that not all of the fields need to be u
 
 Here's a list of a few stocks to try out (techy for the audience):
 
-   GOOG (google)
-   YHOO (yahoo)
-   FB (facebook)
-   AAPL (Apple)
-   LNKD (LinkedIn)
+- GOOG (google)
+- YHOO (yahoo)
+- FB (facebook)
+- AAPL (Apple)
+- LNKD (LinkedIn)
 
 ## Example ##
 
