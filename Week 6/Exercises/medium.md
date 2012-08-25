@@ -11,7 +11,11 @@ Which simply said "No" until we had a government, when it said "Yes".
 
 Your task is to write a class (called government) which contains the variable "has_gov" which is just a boolean: True means we have a government, false means we do not.
 
-Line 38 of the site is of interest to you as it says "       <h1 id="yes">YES</h1>". Note the whitespace. Consider it.
+Line 38 of the site is of interest to you as it says 
+
+    "       <h1 id="yes">YES</h1>". 
+    
+Note the whitespace. Consider it.
 
 If the line is that, make gov True, else make has_gov false. It's that simple
 
