@@ -3,7 +3,7 @@ Challenge Question: Week 5
 
 ## Stock Listing ##
 
-The challenge is to generate a list of companies with their market cap in order, from biggest to smallest
+The challenge is to generate a list of companies with their market cap in order, from biggest to smallest. You will only need to deal with stocks who have market caps in the billions (their market cap is suffixed with a 'B').
 
 **Note:** The Hard Exercise is an introduction to this, you won't get any of this without it: https://github.com/pocon/Computer-Club/blob/master/Week%205/Exercises/3-Hard.md
 
