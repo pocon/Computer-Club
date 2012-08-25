@@ -13,7 +13,7 @@ Your task is to write a class (called government) which contains the variable "h
 
 Line 38 of the site is of interest to you as it says 
 
-    "       <h1 id="yes">YES</h1>". 
+           <h1 id="yes">YES</h1> 
     
 Note the whitespace. Consider it.
 
