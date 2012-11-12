@@ -35,7 +35,7 @@ To win, you must produce the shortest amount of code possible, to obtain the low
 
 ### Submission ###
 
-Submissions are due NLT 8:00 pm on Mon. September 3 2012.
+Submissions are due NLT 8:00 pm on Mon. September 10 2012.
 Make sure you place your name in a comment (put a # in front of it) on the first line of the program (this is how the leaderboard generates names)
 
 Email the submission to Patrick: me -at- padmel -dot- com
