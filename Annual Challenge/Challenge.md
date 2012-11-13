@@ -28,6 +28,7 @@ You are allowed to import math, although the statement "import math" will count
 - Multiplication (*) - times
 - Modulus (%) - mod
 - Pi as a number (correct to at least 4 d.p.) - pi
+- ans as a number which is the last value (eg: history) - ans
 
 ### Example ###
 
@@ -39,9 +40,11 @@ You are allowed to import math, although the statement "import math" will count
     2
     Enter a Calculation: ten times EiGhTeen
     180
-    Enter a Calculation: twelve mod 7
+    Enter a Calculation: twelve mod seven
     5
-    Enter a Calculation: pi times 1
+    Enter a Calculation: ans plus two
+    7
+    Enter a Calculation: pi times one
     3.1416
 
 Note that numbers (including pi) can be in any form of capitalisation.
