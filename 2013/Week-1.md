@@ -64,4 +64,49 @@ The first week is about a general introduction to what Linux is, why we care, fr
 - Unity: Ubuntu's own little desktop environment because it's special. Also caused quite a bit of controversy when it replaced GNOME 2, which Ubuntu originally used. That said it is modern, slick and quite usable.
 - Enlightenment: A lightweight desktop/window manager which the author knows nothing about
 - wmii, dwm, xmonad, ratpoison, twm, icewm, flvm, openbox, fluxbox, blackbox, etc.: Really minimalist and lightweight window managers which are used by the pros (like Patrick O'Connell) and make Windows 95 seem full-featured. Definitely not recommended for beginners.
-Still need bit on virtualisation, installation
+
+## Getting Linux ##
+
+- Linux distributions are typically availble as CD images (.iso) from the distribution websites. These can be burned to CD or USB and booted.
+
+## Running Linux ##
+
+- Linux can be installed normally on a hard drive and used in place of Windows. This is usually done by running the installation CD/USB/whatever
+- Linux can also be taken for a "test drive" via Live CD/DVD/USB. In this instance, it is not installed to disk but run straight from the removable media. As you're not touching the hard drive at all, this is an easy and safe method to try out Linux with little risk. However, due to the read-only nature of many such live disks (e.g. CDs), persistence, or the saving of settings and files across reboots, is generally limited
+- Multiboot - this involves installing Linux alongside Windows/even other Linux. You will be able to choose an option to boot upon computer startup. This is often useful if you'd like to use Linux but there are things in Windows you can't do without.
+- Virtualisation involves the emulation of a "fake" or "virtual" environment, enabling Linux, or another OS, to be run "inside" an existing OS. The virtualisation software creates a pretend environment, simulating the presence of a processor, memory, screen, and other hardware to the guest OS, or the OS that is being virtualised. In this way, Linux can be run easily within Windows without anything at risk except a virtual disk file, or even Windows within Linux, or Linux within Linux.
+
+## Virtualisation with VirtualBox ##
+
+- VirtualBox is a popular, open source, and easy-to-use option for virtualisation
+- You can get it here: https://www.virtualbox.org
+- See the VirtualBoxSetup.md tutorial file in this directory for detailed instructions on how to set up VirtualBox. In addition, this tutorial has not been written yet.
+
+## Our Linux setup ##
+
+- We plan to use VirtualBox to virtualise a Linux environment within the school computer.
+- Specifically, we'll be using the Linux Mint distribution, with the Cinnamon desktop environment.
+- Please see the VirtualBoxSetup.md tutorial for how to set up your virtual disk. A starting disk image, with Mint already installed, will be provided on the shared drive at school
+- You'll need a USB, preferably 8GB (4GB is usable, but will restrict how much stuff you can add). You can carry around the virtual disk image containing your Mint installation, run it using VirtualBox at school, and also with your VirtualBox install at home (indeed, you can run it with any VirtualBox installation you can access)
+- At any time, if you stuff up your disk image, if you've made a backup you can just switch to that, or simply recopy the original disk image from the shared drive
+
+## Other setups ##
+
+- We won't be installing Linux on the school computers, or booting Live USBs/CDs. However, if you wish, you have some other options available to you:
+
+### Bring your own hardware ###
+
+- You could simply bring along a laptop on which you're willing to install or multiboot Linux.
+- If you choose to do so, obviously be aware of the risk of damage, theft, etc.
+- Hardware and Linux can sometimes be problematic; we make no guarantees that we will be able to fix, rescue, or otherwise troubleshoot your setup
+- Installing Linux is an involved process that can require more technical knowledge. You can, if you're not careful, take out data you might have wanted. Whilst we'll provide what support we can, you may find yourself relying on documentation, manuals, and random blog posts for information. That's how hobbyists roll.
+- The advantages of this, however, are clearly the much greater customisation possible than using a pre-installed image, much greater speed due to the lack of virtualisation, etc.
+
+### Custom install in VirtualBox ###
+
+- You could, rather than using a pre-installed Linux Mint image, install Mint or any other distro in your own virtual disk image
+- A tutorial on Linux Mint installation within VirtualBox is available at VirtualBoxInstall.md. It hasn't been written yet.
+- Those of you who want the added challenge of installing Linux without putting actual hardware or such at risk might want to try this approach.
+- Bear in mind though that if you want to transfer your customised install to actual hardware and run it properly, this might be quite an involved and complex process
+
+PS: FYI, this summary was written in vi. emacs sucks.
