@@ -17,3 +17,4 @@ This year, we dive into the world of GNU/Linux and beyond into some of the cool 
 - Linux is not Windows
 - The club is not about/focussed on any of the following: hacking, programming, 3D graphics, making games, mixing music, editing videos, etc. Whilst these are all part of computing, they are beyond the scope of the club this year
 - Linux is not Windows
+- Start at Start-Here.md
