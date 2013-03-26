@@ -20,7 +20,7 @@ The first week is about a general introduction to what Linux is, why we care, fr
 
 ## A bit of history ##
 
-- The Linux kernel was first written back in the 1990s by a cool kid from Scandinavia
+- The Linux kernel was first written back in the 1990s by a cool kid from Scandinavia (Linus Torvalds)
 - This was combined with the GNU project, which had been going since the 1980s, to make a usable GNU/Linux operating system
 
 ## How is Linux important today? ##
@@ -33,25 +33,25 @@ The first week is about a general introduction to what Linux is, why we care, fr
 ## Why should we use/care about Linux? ##
 
 - Free and open source software (FOSS) - GNU/Linux and many programs written for it are based on the principles of customising, sharing and working together as a community (it's also completely free. 100%. If you pay for Linux, you're either paying for other stuff like support, or you're getting swindled)
-- Customisable. The user has the POWAH
+- Customisable. The user has the power, to customise every single detail of the system, to tailor their computer to their needs and wants.
 - Secure. Much more so than even Mac, and definitely Windows. The Android malware situation is not applicable to GNU/Linux systems.
 - Reliable. Linux systems rarely crash, if ever, which is why the majority of web servers use Linux, and can stay continuously online for years
-- Fast. Windows is slow and bloated. The fastest Linux desktops can boot from cold start in under 5 seconds, but a standard installation will still shave tens of seconds off startup times. Interfaces are faster and more responsive, because of lighter memory requirements. Linux systems also take up much less disk space.
+- Fast. Windows is slow and bloated. The fastest Linux desktops can boot from cold start in under 5 seconds, but a standard installation can still shave tens of seconds off startup times. Interfaces are faster and more responsive, because of lighter memory requirements. Linux systems also take up much less disk space. NB: Due to the inefficiency that virtualisation places on, well, everything, the true speed of a Linux system is much faster than what a virtualised interface might show.
 
 ## Linux Distributions ##
 
 - Distributions, aka "distros", are various flavours of Linux that are typically GNU/Linux systems with different desktop interfaces and programs slapped on top, allowing them to be used for different purposes
 - Some distros might aim to be good desktop systems, others may be optimsed for low end machines/laptops, others may be optimised as secure systems, still others are designed to be portable and able to be carried around on a USB to be booted on any supported computer you come across
-- distrowatch.com has quite a comprehensive list (i.e. hundreds). If you're just starting, it's probably best to start with the few most popular ones. (NB: distrowatch also talks about a number of "BSD" systems, like FreeBSD, etc, these are substantially different, but still FOSS, OSes that generally require much more tech knowledge and ability to install and use
+- distrowatch.com has quite a comprehensive list (i.e. hundreds). If you're just starting, it's probably best to start with the few most popular ones. (NB: distrowatch also talks about a number of "BSD" systems, like FreeBSD, etc, these are substantially different, but still FOSS, OSes that generally require much more tech knowledge and ability to install and use. Not recommended for beginners.)
 
 ### Some popular distributions ###
 
 - Ubuntu: considered one of the best distros for beginners, it provides a fancy modern desktop known as Unity. It's developed by Canonical Ltd and the associated community, and was originally forked from Debian
-- Debian: the "Universal Operating System", Debian has succeeded in building an extremely stable, reliable system that supports many different CPUs, at the cost of having extremely outdated software that is kept "up-to-date" through a rather complex system of backports (don't worry if you don't know what that means). As a result, people love it for use as servers, but probably not the ideal desktop solution. Also, Debian sticks very firmly to FOSS values. Debian provides the old, venerable GNOME 2 desktop environment
+- Debian: the "Universal Operating System", Debian has succeeded in building an extremely stable, reliable system that supports many different CPUs, at the cost of having extremely outdated software that is kept "up-to-date" through a rather complex system of backports (don't worry if you don't know what that means). As a result, people love it for use as servers, but it's probably not the ideal desktop solution. Also, Debian sticks very firmly to FOSS values. Debian provides the old, venerable GNOME 2 desktop environment
 - Linux Mint: a distro based off Ubuntu (but also Debian if you so wish), which aims also to be an extremely user friendly, beginner-friendly distribution. Linux Mint comes with either the Cinnamon or MATE desktops, which are reimaginings of the original GNOME 2 environment (more on this below)
 - Fedora: A distro from the Linux company Red Hat, which is used to test new features going into the commercial Red Hat Enterprise Linux. It places a particular focus on security and FOSS principles, and uses the GNOME 3 desktop (not GNOME 2). Also quite a good choice for the Linux beginner.
 - Arch and Gentoo: Distros for pros, these provide total control over your system starting from a minimalist beginning. Definitely NOT recommended for beginners, or even intermediate Linux users.
-- openSUSE, Mandriva, Mageia: Random distros which I know have something to do with Novell but that's all I know...
+- openSUSE, Mandriva, Mageia: Some other random distros.
 
 ### Desktop environments ###
 
@@ -80,7 +80,7 @@ The first week is about a general introduction to what Linux is, why we care, fr
 
 - VirtualBox is a popular, open source, and easy-to-use option for virtualisation
 - You can get it here: https://www.virtualbox.org
-- See the VirtualBoxSetup.md tutorial file in this directory for detailed instructions on how to set up VirtualBox. In addition, this tutorial has not been written yet.
+- See the Start-Here.md tutorial file in this directory for detailed instructions on how to set up VirtualBox.
 
 ## Our Linux setup ##
 
@@ -98,15 +98,15 @@ The first week is about a general introduction to what Linux is, why we care, fr
 
 - You could simply bring along a laptop on which you're willing to install or multiboot Linux.
 - If you choose to do so, obviously be aware of the risk of damage, theft, etc.
-- Hardware and Linux can sometimes be problematic; we make no guarantees that we will be able to fix, rescue, or otherwise troubleshoot your setup
-- Installing Linux is an involved process that can require more technical knowledge. You can, if you're not careful, take out data you might have wanted. Whilst we'll provide what support we can, you may find yourself relying on documentation, manuals, and random blog posts for information. That's how hobbyists roll.
+- Hardware compatibility and Linux can sometimes be problematic; we make no guarantees that we will be able to fix, rescue, or otherwise troubleshoot your setup
+- Installing Linux is an involved process that can require more technical knowledge. You can, if you're not careful, destroy files you wanted not to be destroyed. This includes things you might have wanted kept, like Windows, family photos, or your English essay. Whilst we'll provide what support we can, you may find yourself relying on documentation, manuals, and random blog posts for information. That's how a lot of DIY Linux users roll - relying on the massive community that's grown up around Linux, in the form of forums, chat rooms, and the like.
 - The advantages of this, however, are clearly the much greater customisation possible than using a pre-installed image, much greater speed due to the lack of virtualisation, etc.
 
 ### Custom install in VirtualBox ###
 
 - You could, rather than using a pre-installed Linux Mint image, install Mint or any other distro in your own virtual disk image
-- A tutorial on Linux Mint installation within VirtualBox is available at VirtualBoxInstall.md. It hasn't been written yet.
+- A tutorial on Linux Mint installation within VirtualBox will be available shortly.
 - Those of you who want the added challenge of installing Linux without putting actual hardware or such at risk might want to try this approach.
-- Bear in mind though that if you want to transfer your customised install to actual hardware and run it properly, this might be quite an involved and complex process
+- Bear in mind though that if you want to transfer your customised install to actual hardware and run it natively (i.e., not inside a VM), this might be quite an involved and complex process
 
 PS: FYI, this summary was written in vi. emacs sucks.

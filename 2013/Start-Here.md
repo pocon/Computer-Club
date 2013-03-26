@@ -17,15 +17,15 @@ This guide aims to show how you should set yourself up for Computer Club 2013. T
   - Copy both of the files in that folder onto your USB drive. It doesn't really matter where you put it
   - Note: This could take some time, do only at a time in which the computers are not busy
 
-> The following section is optional <
+> The following section is optional for Week 1<
 
 ## Installing and setting up VirtualBox ##
 
 1. Run the VirtualBox installer that you copied to your USB.
 2. After you've installed VirtualBox, open it
 3. Click on "New" to create a new virtual machine
-4. Choose some name for your VM. This doesn't matter that much. Select Linux as your Operating System, and Ubuntu (not Ubunut 64-bit) as the version
-5. If you're installing at home, give the virtual machine memory that you're comfortable with, based on how much you have
+4. Choose some name for your VM. This doesn't matter that much. Select Linux as your Operating System, and Ubuntu (not Ubuntu 64-bit) as the version.
+5. If you're installing at home, give the virtual machine memory that you're comfortable with, based on how much you have. 1GB should be enough.
 6. Then choose the existing hard disk file, which is just the mint.vdi file that you copied to your USB
 7. Then simply click create, and your virtual machine is created 
 
