@@ -22,6 +22,9 @@ The first week is about a general introduction to what Linux is, why we care, fr
 
 - The Linux kernel was first written back in the 1990s by a cool kid from Scandinavia (Linus Torvalds)
 - This was combined with the GNU project, which had been going since the 1980s, to make a usable GNU/Linux operating system
+- A bit of stuff relating to today's discussions about Unix, Mac and Linux, and how they're all related
+- First, see the Wikipedia article on Unix. As was shown today it has a very nice graphic showing how everything is related.
+- Linux is an open-source REWRITE of Unix. It tries to provide a Unix-compatible system that is distinctly Unix-flavoured, but does not contain any actual Unix code. Mac OSX is something that has direct descent from the original Unix. 
 
 ## How is Linux important today? ##
 
@@ -37,6 +40,17 @@ The first week is about a general introduction to what Linux is, why we care, fr
 - Secure. Much more so than even Mac, and definitely Windows. The Android malware situation is not applicable to GNU/Linux systems.
 - Reliable. Linux systems rarely crash, if ever, which is why the majority of web servers use Linux, and can stay continuously online for years
 - Fast. Windows is slow and bloated. The fastest Linux desktops can boot from cold start in under 5 seconds, but a standard installation can still shave tens of seconds off startup times. Interfaces are faster and more responsive, because of lighter memory requirements. Linux systems also take up much less disk space. NB: Due to the inefficiency that virtualisation places on, well, everything, the true speed of a Linux system is much faster than what a virtualised interface might show.
+
+## What is this "Open source" thing? ##
+
+- Computer programs today, whether user applications, operating systems, etc, are almost always written in one of many programming languages - abstract representations of the actual code that is designed to be easily learnt, interpreted, and created by human beings - this is the "source code"
+- Proper programs, OSes and the like must be *compiled* by a special program known as a compiler into machine code, which is binary stuff that can only then be read and executed by a computer's processor
+- To read or attempt to convert such machine code back into the readable stuff is extremely difficult, and effectively impossible except for people who have far too much time on their hands
+- This means that such programs, without the source code, are impossible for users to modify or use in anyway except as the creator originally intended
+- Such things are known as "closed source"
+- Open source programs are released under a license that gives the user the source code. In addition, they generally come with licenses that explicitly permit the user to modify, play with, etc. the code, because this is clearly important to being able to customise
+- Also, many open source licenses, such as the GNU General Public License, come with clauses that force any modifications to the program to also be released under the same license, allowing the open source community to grow
+- Open source allows a worldwide community of developers to review, modify, and improve the code whenever they want, and allows anyone to be part of this community. THe many pairs of eyes passing over the code means security bugs are fixed very quickly
 
 ## Linux Distributions ##
 
@@ -85,8 +99,8 @@ The first week is about a general introduction to what Linux is, why we care, fr
 ## Our Linux setup ##
 
 - We plan to use VirtualBox to virtualise a Linux environment within the school computer.
-- Specifically, we'll be using the Linux Mint distribution, with the Cinnamon desktop environment.
-- Please see the VirtualBoxSetup.md tutorial for how to set up your virtual disk. A starting disk image, with Mint already installed, will be provided on the shared drive at school
+- We're still working out which distribution and what setup we're going to use.
+- Please see the Start-Here.md tutorial for how to set up your virtual disk. A starting disk image, with the chosen setup already installed, will be provided on the shared drive at school
 - You'll need a USB, preferably 8GB (4GB is usable, but will restrict how much stuff you can add). You can carry around the virtual disk image containing your Mint installation, run it using VirtualBox at school, and also with your VirtualBox install at home (indeed, you can run it with any VirtualBox installation you can access)
 - At any time, if you stuff up your disk image, if you've made a backup you can just switch to that, or simply recopy the original disk image from the shared drive
 
