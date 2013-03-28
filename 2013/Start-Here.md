@@ -17,7 +17,12 @@ This guide aims to show how you should set yourself up for Computer Club 2013. T
 2. Go to the S-Drive and Locate the "Computer Club" Folder:
   - Copy both of the files in that folder onto your USB drive. It doesn't really matter where you put it
   - Note: This could take some time, do only at a time in which the computers are not busy
-  - Note: The permissions and access to the Computer Club folder have not been setup yet. In addition, the final disk image is stil being built due to issues experienced with VirtualBox. Updates will be posted to github and to the mailing list when stuff happens.
+  - Note: The permissions and access to the Computer Club folder have not been setup yet. The final disk image has now been built after being tweaked due to issues with VirtualBox. However, further testing needs to be done. The updated copy hasn't been pushed to the S: drive yet either. Updates will be posted to github and to the mailing list when stuff happens.
+
+OPTIONAL:
+
+For those of you who are paranoid and/or have the technical knowhow, the VirtualBox installer and .vdi will be furnished with signed SHA-512 cryptographic hashes for verification and anti-tampering purposes.
+The hash and associated signature will be provided in signature.asc. More information will be made available in the near future.
 
 > The following section is optional for Week 1<
 
