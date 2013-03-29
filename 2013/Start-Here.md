@@ -15,7 +15,7 @@ This guide aims to show how you should set yourself up for Computer Club 2013. T
   - You can then copy back the files you originally had, but please note that this will decrease the amount of space available to your virtual Linux installation
 
 2. Go to the S-Drive and Locate the "Computer Club" Folder:
-  - Copy both of the files in that folder onto your USB drive. It doesn't really matter where you put it
+  - Copy both of the files in that folder onto your USB drive. It doesn't really matter where you put it. If you know what you're doing, get the VirtualBox installer straight from virtualbox.org.
   - Note: This could take some time, do only at a time in which the computers are not busy
   - Note: The permissions and access to the Computer Club folder have not been setup yet. The final disk image has now been built after being tweaked due to issues with VirtualBox. However, further testing needs to be done. The updated copy hasn't been pushed to the S: drive yet either. Updates will be posted to github and to the mailing list when stuff happens.
 
@@ -29,12 +29,7 @@ The hash and associated signature will be provided in signature.asc. More inform
 ## Installing and setting up VirtualBox ##
 
 1. Run the VirtualBox installer that you copied to your USB.
-2. After you've installed VirtualBox, open it
-3. Click on "New" to create a new virtual machine
-4. Choose some name for your VM. This doesn't matter that much. Select Linux as your Operating System, and Ubuntu (not Ubuntu 64-bit) as the version.
-5. If you're installing at home, give the virtual machine memory that you're comfortable with, based on how much you have. 1GB should be enough.
-6. Then choose the existing hard disk file, which is just the mint.vdi file that you copied to your USB
-7. Then simply click create, and your virtual machine is created 
+2. Read and follow the VirtualBox Setup Guide provided.
 
 ## Then what? ##
 
