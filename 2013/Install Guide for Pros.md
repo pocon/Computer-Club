@@ -2,25 +2,25 @@
 
 Q: Who is this for?
 
--This is for technically able people who want to make their own version of the Ubuntu minimal image that will be placed on the shared drive. Everyone else should just copy over the image once it becomes available. Alternatively, if you want to get a feel for a minimalist build of Linux that doesn't require as much complexity as the extremely hardcore Arch or Gentoo distros, you could try this.
--Linux is about customisation. If you're technically able, there's no reason why you should have to follow the instructions. If you know what you're doing, it's up to you to customise the system as you see fit, change the password, hostname, keyboard layout, file systems, partition setup, etc. The steps are just how we setup the default image.
+- This is for technically able people who want to make their own version of the Ubuntu minimal image that will be placed on the shared drive. Everyone else should just copy over the image once it becomes available. Alternatively, if you want to get a feel for a minimalist build of Linux that doesn't require as much complexity as the extremely hardcore Arch or Gentoo distros, you could try this.
+- Linux is about customisation. If you're technically able, there's no reason why you should have to follow the instructions. If you know what you're doing, it's up to you to customise the system as you see fit, change the password, hostname, keyboard layout, file systems, partition setup, etc. The steps are just how we setup the default image.
 
 Q: What will I end up with?
 
--You will end up with a minimal Ubuntu installation with the LXDE desktop that is exactly the same as the offical image on the shared drive, possibly give or take a few updates.
+- You will end up with a minimal Ubuntu installation with the LXDE desktop that is exactly the same as the offical image on the shared drive, possibly give or take a few updates.
 
 Q: What are the prerequisites?
 
--You should have VirtualBox installed, and have used/played with it
--You should have experience with and not be afraid of text-based interfaces, ncurses-based programs, and the command line.
--NB: You will *not* have a nice mouse/pointy-clicky thing anywhere. There are no pretty Graphical User Interfaces (GUIs) or the like.
+- You should have VirtualBox installed, and have used/played with it
+- You should have experience with and not be afraid of text-based interfaces, ncurses-based programs, and the command line.
+- NB: You will *not* have a nice mouse/pointy-clicky thing anywhere. There are no pretty Graphical User Interfaces (GUIs) or the like.
 
 Q: Is this dangerous to my files or me?
 
--No, you're just playing in a VM. Even if you stuff up, nothing outside the VM (i.e. your computer) will be affected.
--Your mental sanity may be affected ;)
+- No, you're just playing in a VM. Even if you stuff up, nothing outside the VM (i.e. your computer) will be affected.
+- Your mental sanity may be affected ;)
 
--Note: the following instructions assume you are following along with the install as you read this guide, which is why some of them have zero context and make no sense when read by themselves
+- Note: the following instructions assume you are following along with the install as you read this guide, which is why some of them have zero context and make no sense when read by themselves
 
 1) Get mini.iso (the Ubuntu network-install image) from http://archive.ubuntu.com/ubuntu/dists/quantal/main/installer-i386/current/images/netboot/
 
