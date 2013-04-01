@@ -105,3 +105,11 @@ sudo shutdown -r now
 4) Auto-adjusting screen resolution in VirtualBox. When you increase the window dimensions in VirtualBox, sometimes the screen will stretch, sometimes it'll stay at the same resolution and sometimes it'll try auto-adjusting the resolution, with varying degrees of success. Advice is just to keep trying if it plays up, the default disk image should support auto-adjustment, but it might require reboots with a maximised window or other jumping through hoops to get it working.
 
 5) A note regarding passwords on the shell. By default, when you type in a password at the shell/command line on Linux, it won't display the characters or even "*"s - there's no visual indication of how long your password is, for security reasons. Just type as normal, and press enter - your keypresses are going in, it's not a bug.
+
+6) There may be a problem with networking, which could include a very long boot time with a "Waiting for network configuration" message, or a non-functional internet connection. In this case, run the following command from your favourite terminal emulator:
+
+ifconfig -a
+
+Check the number after "eth". Then open up /etc/network/interfaces, and check the primary network interface. If necessary, adjust the numbers after "eth" to match up with the ifconfig output. Networking problems should be finished after this.
+
+7) Problems have been encountered with getting the gnome-authentication-agent program to start automatically on startup, though the stock image *should* not have this problem. A quick fix is simply to logout and log back in, but we're still looking into a more permanent solution.
