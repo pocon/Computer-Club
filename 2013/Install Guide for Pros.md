@@ -112,7 +112,7 @@ ifconfig -a
 
 Check the number after "eth". Then open up /etc/network/interfaces, and check the primary network interface. If necessary, adjust the numbers after "eth" to match up with the ifconfig output. Networking problems should be finished after this.
 
-Update: it seems that the networking problems are related to new VMs having different MAC addresses. If you go to Settings, Networking, and advanced options for your adaptor, and set the same MAC address for all your VMs, as well as ensure that the eth* config in Linux is working, then there should be no networking issues no matter what VM you boot the disk image in.
+Update: it seems that the networking problems are related to new VMs having different MAC addresses. If you go to Settings, Networking, and advanced options for your adaptor, and set the same MAC address for all your VMs, as well as ensure that the eth* config in Linux is working, then there should be no networking issues no matter what VM you boot the disk image in. As a side note, yes this is the reason why we've gotten everyone to set the MAC address in the network settings.
 
 7) Upon further testing, it has been concluded that the pkexec/PolicyKit/gnome-authentication-agent method of launching Synaptic, which is basically a graphical dialog box that allows you to enter your credentials to launch it, is totally and completely dysfunctional. Problems included the necessary processes refusing to launch upon startup, and other stuff that resisted fixing.
 
