@@ -20,7 +20,11 @@ Q: Is this dangerous to my files or me?
 - No, you're just playing in a VM. Even if you stuff up, nothing outside the VM (i.e. your computer) will be affected.
 - Your mental sanity may be affected ;)
 
-- Note: the following instructions assume you are following along with the install as you read this guide, which is why some of them have zero context and make no sense when read by themselves
+### Stuff to Note ###
+
+- The following instructions assume you are following along with the install as you read this guide, which is why some of them have zero context and make no sense when read by themselves
+
+- The following instructions are for building the old image, not the new one that will be pushed to the S drive soon. Those instructions will come shortly.
 
 1) Get mini.iso (the Ubuntu network-install image) from http://archive.ubuntu.com/ubuntu/dists/quantal/main/installer-i386/current/images/netboot/
 

@@ -3,6 +3,8 @@
 This year, we dive into the world of GNU/Linux and beyond into some of the cool parts of IT that have interested us in computers.
 
 - Week 1: An welcome to the club for the year, and introduction to Linux, free and open source software, and VirtualBox.
+- Week 2: Installing VirtualBox, running a VM using the provided image, first time booting the VM
+- Week 3: Using the VM - fixing the screen resolution, getting around the desktop, package management, packages for common tasks
 
 ## General Stuff you should be aware of ##
 

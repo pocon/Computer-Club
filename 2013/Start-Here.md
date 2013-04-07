@@ -28,5 +28,3 @@ You've also now installed VirtualBox on the school computers.
 
 You can now startup the image as shown in the Week 2 club, and play with it if you like.
 If you're especially daring/adept, you want to see the "Install Guide for pros" and build your own version of the image, or even try installing your own image.
-
-Week-2 Summary coming soon
