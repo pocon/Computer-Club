@@ -13,3 +13,7 @@ This year, we dive into the world of GNU/Linux and beyond into some of the cool 
 - The club is not about/focussed on any of the following: hacking, programming, 3D graphics, making games, mixing music, editing videos, etc. Whilst these are all part of computing, they are beyond the scope of the club this year
 - Start at Start-Here.md
 - Linux is not Windows
+
+## How to set up each session ##
+
+Each time you set up at school, please follow the new "Setting Up at School" guide. Hopefully this should decrease the chaos in recent weeks.
