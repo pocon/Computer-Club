@@ -2,9 +2,12 @@
 
 This year, we dive into the world of GNU/Linux and beyond into some of the cool parts of IT that have interested us in computers.
 
-- Week 1: An welcome to the club for the year, and introduction to Linux, free and open source software, and VirtualBox.
-- Week 2: Installing VirtualBox, running a VM using the provided image, first time booting the VM
-- Week 3: Using the VM - fixing the screen resolution, getting around the desktop, package management, packages for common tasks
+- Part 1: An welcome to the club for the year, and introduction to Linux, free and open source software, and VirtualBox.
+- Part 2: Installing VirtualBox, running a VM using the provided image, first time booting the VM
+- Part 3: Using the VM - fixing the screen resolution, getting around the desktop
+- Part 4 (current): Package management, packages for common tasks, general Linux information
+
+The weeks have been replaced by parts because we've spent more time on some areas then initially anticipated.
 
 ## General Stuff you should be aware of ##
 
@@ -17,3 +20,7 @@ This year, we dive into the world of GNU/Linux and beyond into some of the cool 
 ## How to set up each session ##
 
 Each time you set up at school, please follow the new "Setting Up at School" guide. Hopefully this should decrease the chaos in recent weeks.
+
+## USBs and bringing them ##
+
+It's a very good idea to bring USBs to the club and put your disk image on that. Obviously we can't force you to, but you're not going to get much out of the sessions if you spend half the time each session waiting for the image to copy to the desktop.

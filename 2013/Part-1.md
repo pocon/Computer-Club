@@ -1,4 +1,4 @@
-# Week 1 Summary #
+# Part 1 Summary #
 
 The first week is about a general introduction to what Linux is, why we care, free and open source software (FOSS), and the basic foundations of running a GNU/Linux system inside a virtual environment (provided by VirtualBox)
 

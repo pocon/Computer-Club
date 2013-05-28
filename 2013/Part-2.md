@@ -1,6 +1,6 @@
-# Week 2 Summary #
+# Part 2 Summary #
 
-The 2nd Week was a demonstration of installing VirtualBox and setting up a virtual machine using the image provided. All instructions can be found in the VirtualBox Setup Guide.pdf in this directory.
+The 2nd part was a demonstration of installing VirtualBox and setting up a virtual machine using the image provided. All instructions can be found in the VirtualBox Setup Guide.pdf in this directory.
 
 NOTE: The image on the shared drive is going to be UPDATED Monday 8/4/13. The new version will fix some bugs and will hopefully provide better integration and less rough edges.
 
