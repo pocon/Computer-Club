@@ -1,0 +1,10 @@
+# This is an example .desktop file for placement in /usr/share/applications, which will add a link to the LXDE menu for Chromium that is preconfigured to work wth ntlmaps and the school proxy. For more info: See Part-3.md
+[Desktop Entry]
+Encoding=UTF-8
+Exec=chromium-browser --proxy-server=http://127.0.0.1:5865
+Icon=chromium-browser
+Type=Application
+Terminal=False
+Name=Chromium for SGS proxy
+Generic Name=Chromium for SGS proxy
+Categories=WebBrowser;Network;
