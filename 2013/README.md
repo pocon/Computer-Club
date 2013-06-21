@@ -13,7 +13,7 @@ The weeks have been replaced by parts because we've spent more time on some area
 
 - Linux is not Windows
 - If you are not careful with Linux/play with it without experience outside the scope of the club, you can easily destroy a lot of your own data and/or brick your computer. This is not intended as a restriction, rather as a caution to be careful until you know more
-- The club is not about/focussed on any of the following: hacking, programming, 3D graphics, making games, mixing music, editing videos, etc. Whilst these are all part of computing, they are beyond the scope of the club this year
+- The club is not about/focussed on any of the following: hacking, programming, 3D graphics, mixing music, editing videos, etc. Whilst these are all part of computing, they are beyond the scope of the club this year
 - Start at Start-Here.md
 - Linux is not Windows
 
