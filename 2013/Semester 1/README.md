@@ -5,9 +5,11 @@ This year, we dive into the world of GNU/Linux and beyond into some of the cool 
 - Part 1: An welcome to the club for the year, and introduction to Linux, free and open source software, and VirtualBox.
 - Part 2: Installing VirtualBox, running a VM using the provided image, first time booting the VM
 - Part 3: Using the VM - fixing the screen resolution, getting around the desktop
-- Part 4 (current): Package management, packages for common tasks, general Linux information
+- Part 4: Package management, packages for common tasks, general Linux information, shells
 
 The weeks have been replaced by parts because we've spent more time on some areas then initially anticipated.
+
+*The Linux "plot arc" of the club is now over. We hope you've had fun, and will continue to explore the world of Linux and FOSS.*
 
 ## General Stuff you should be aware of ##
 

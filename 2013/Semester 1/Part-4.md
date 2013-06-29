@@ -6,6 +6,8 @@ This is where the club is currently at. We'll go through the following things in
 
 2) General Linux structure and usage - AKA "Where is the C: drive?"
 
+3) Command lines, terminal emulators, and shells - AKA "White text on a black background"
+
 ## Package Management ##
 
 Software for most of the major Linux distros comes in blobs called "packages". These can be thought of as analogous to .apks on Android phones. They contain a bundle of stuff, whether that be documentation, a library, debugging information or the GUI component of an application, which can be unpacked and installed on the system. Major distributions maintain centralised repositories of packages, often in the thousands, which the distros pull in from the original creators of the software and repackage and test for the system.
@@ -101,3 +103,21 @@ A directory for the storage of temporary files by programs. Usually no need to t
 ### /var ###
 
 A bit of a miscellaneous directory for stuff that changes often. For instance, system logs of various things can be found in /var/log.
+
+## The Command Line ##
+
+Command Line interfaces (colloquially, and non-technically known as "shells") play a significant role in the usage of a GNU/Linux system - with proper graphical tools on a full desktop, it's possible to not use it at all, but it's still an important tool to know, and can usually perform tasks faster than on a point and click interface.
+
+A shell is simply a program that allows the user to control the computer. Hence, technically a graphical interface is also a shell. However, this discussion is about command-line shells, which generally take the form of a "working directory", the folder you're currently in, and a part that listens for user commands/input, and subsequently acts on those commands.
+
+The standard shell program for most desktop Linuxen is the Bourne Again Shell, or "bash". The naming is because it descended from an earlier shell program called the Bourne Shell, or "sh".
+
+The terminal emulator program, such as lxterminal, or xterm, is separate from the shell. The terminal emulator does exactly what its name suggests - it emulates a terminal, which is basically a text only display. Shells generally expect to run within a text-only environment (as they are a text-only interface), so a terminal emulator program creates a virtual terminal, within which the shell program is run.
+
+The commands available in a shell environment can generally be divided up into two groups - built in commands, and external executables or scripts.
+
+Built in commands are those that the shell inherently comes with; these generally are commands that configure or display information about the shell itself, such as "cd", the change directory command, which changes the directory the shell is currently in.
+
+External commands are those executables that can be run from a shell. These could expect or display text to the terminal (emulated or not), and perform other actions - examples might be a terminal based text editor such as vi.
+
+This is only a very basic introduction to the command-line interface on Linux; for more information, you should look at the Cool Stuff file, which contains some links to good introductory tutorials that go more in depth into shells and how to use them.
